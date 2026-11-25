@@ -1,0 +1,39 @@
+# OS / Explorer
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs, temporary and backup files
+*.log
+*.tmp
+*.bak
+*.orig
+.cache/
+tmp/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials.json
+service-account*.json
+
+# Dependencies and build output (if added later)
+node_modules/
+dist/
+build/
+
+# Local empty duplicate, not part of the website
+index.html.txt
